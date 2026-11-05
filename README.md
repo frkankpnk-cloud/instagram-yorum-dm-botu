@@ -97,6 +97,7 @@ Kurulumu yapay zekâ aracına yaptırıyorsan en üstteki `kur` yolunu ya da haz
 | [SIK-SORULANLAR.md](SIK-SORULANLAR.md) | Kısa sorular, kısa cevaplar |
 | [AGENTS.md](AGENTS.md) | Yapay zekâ aracı için kurulum akışı (`kur`), güvenlik kuralları ve sık hatalar (Codex, Cursor, Gemini CLI vb. okur) |
 | [CLAUDE.md](CLAUDE.md) | Claude Code için: AGENTS.md'yi aynen yükler |
+| [SARTNAME.md](SARTNAME.md) | Ders 1 videosundaki şartname (3 parça): botu boş klasörde yapay zekâya sıfırdan yazdırmak için |
 | `config.example.json` | Örnek kampanyalar → `config.json` olarak kopyalanır |
 | `.env.example` | Gizli ayarların şablonu → `.env` olarak kopyalanır |
 | `src/` · `test/` · `scripts/` | Kod, testler, Windows otomatik başlatma betikleri |
