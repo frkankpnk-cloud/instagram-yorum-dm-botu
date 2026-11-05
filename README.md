@@ -38,7 +38,7 @@ Biri Reels'ine belirlediğin kelimeyi yorum olarak yazar ("REHBER" gibi), bot on
 
 ManyChat'in ücretsiz planı kişi sınırına dayanınca bu botu kendim yazdım ve kendi hesabımda çalıştırıyorum. Kodu açık bırakıyorum: indir, kendi hesabına göre düzenle, istersen yapay zekâ asistanına kurdur.
 
-> **Videoda anlattım:** [YOUTUBE LİNKİ · yayında eklenecek]
+> **Videoda anlattım:** https://www.youtube.com/watch?v=XwPASLp7On8
 
 <!-- [EKRAN GÖRÜNTÜSÜ · yayında eklenecek] Önerilen: solda yorum ("REHBER"), sağda gelen DM; bot logunda "DM gönderildi + yorum cevabı yazıldı" satırı. Kullanıcı adları bulanık. -->
 **[EKRAN GÖRÜNTÜSÜ · yayında eklenecek]**
