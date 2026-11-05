@@ -1,0 +1,19 @@
+# Gizli ayarlar: hiçbir .env dosyası repoya girmez (yalnız değersiz şablon .env.example girer).
+.env
+.env.*
+!.env.example
+
+# Bot kayıtları ve loglar: gerçek kişilerin kullanıcı adları ve kimlikleri burada.
+data/
+logs/
+*.sqlite*
+*.log
+
+# Kendi kampanyaların (DM metinlerin, gönderi kimliklerin); repoya yalnız config.example.json girer.
+config.json
+config.json.yeni
+config-yedek*.json
+
+node_modules/
+.DS_Store
+Thumbs.db

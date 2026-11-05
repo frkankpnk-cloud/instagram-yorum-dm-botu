@@ -1,0 +1,48 @@
+{
+  "_not": "Bu dosyayı config.json adıyla kopyala ve kendi metinlerinle düzenle. Bot config.json değişince kendisi yeniden okur. Kampanyalar aktif:false gelir; metni kontrol edip KURU modda deneyince true yap. Alanların anlamı UYARLAMA.md'de.",
+  "varsayilan": {
+    "yorum_cevabi": "DM'den gönderdim, mesaj isteklerine de bak",
+    "devam_daveti": "Kalan {kalan} mesajı göndermem için bu mesaja bir şey yaz (ör. \"tamam\"). Instagram, sen cevap vermeden ikinci mesajı atmama izin vermiyor."
+  },
+  "kacanlar": {
+    "aktif": true,
+    "son_gonderi_sayisi": 10,
+    "en_eski_saat": 72,
+    "ilk_acilista_yalniz_isaretle": true
+  },
+  "zamanlama": {
+    "mesajlar_arasi_ms": 1500,
+    "bekleyen_gecerlilik_saat": 168
+  },
+  "kampanyalar": [
+    {
+      "kelime": "REHBER",
+      "esanlam": ["rehber"],
+      "gonderi_id": null,
+      "yorum_cevabi": null,
+      "dm": [
+        "Selam! İstediğin rehber burada: [BURAYA LİNKİNİ YAZ]\n\nTakıldığın yer olursa bu mesaja yazabilirsin."
+      ],
+      "eslesme": "icerir",
+      "aktif": false,
+      "not": "ÖRNEK 1 · tüm gönderilerde çalışır (gonderi_id: null), tek DM, herkese açık cevap varsayilan.yorum_cevabi'ndan gelir."
+    },
+    {
+      "kelime": "LISTE",
+      "esanlam": ["LİSTE", "liste"],
+      "gonderi_id": "BURAYA_GONDERI_KIMLIGI",
+      "yorum_cevabi": [
+        "Gönderdim, DM kutuna bak",
+        "Liste DM'de, mesaj isteklerine de bak",
+        "Attım, gelmediyse mesaj isteklerine bak"
+      ],
+      "dm": [
+        "Selam! Videodaki liste:\n\n1. [BİRİNCİ MADDE]\n2. [İKİNCİ MADDE]\n3. [ÜÇÜNCÜ MADDE]",
+        "Son olarak: [EK NOT YA DA LİNK]"
+      ],
+      "eslesme": "icerir",
+      "aktif": false,
+      "not": "ÖRNEK 2 · yalnız tek gönderide çalışır (gonderi_id'ye kendi Reels kimliğini yaz; nasıl bulunur: UYARLAMA.md). Herkese açık cevap listeden dönüşümlü seçilir. İki DM var: ilki yorum cevabı olarak gider, ikincisi kişi DM'ye bir şey yazınca gider."
+    }
+  ]
+}

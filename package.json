@@ -1,0 +1,19 @@
+{
+  "name": "instagram-yorum-dm-botu",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Instagram yorum → DM botu: Meta'nın resmî API'si, npm paketi yok, kendi bilgisayarında çalışır",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.mjs",
+    "bekci": "node --disable-warning=ExperimentalWarning src/bekci.mjs",
+    "kampanya": "node --disable-warning=ExperimentalWarning src/kampanya.mjs",
+    "sahte": "node --disable-warning=ExperimentalWarning src/sahte-webhook.mjs",
+    "check": "node scripts/kontrol.mjs",
+    "test": "node scripts/kontrol.mjs && node --disable-warning=ExperimentalWarning --test \"test/*.test.mjs\""
+  }
+}
